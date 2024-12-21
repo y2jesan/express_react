@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 3001, // Set the port to 3000
+    port: 3001, // Vite development server runs on port 3001
     proxy: {
       '/api': {
         target: 'http://localhost:3000',

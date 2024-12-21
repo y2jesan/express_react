@@ -10,5 +10,8 @@
   "workspaces": [
     "apps/*"
   ],
-  "packageManager": "npm@10.5.2"
+  "packageManager": "npm@10.5.2",
+  "dependencies": {
+    "react-router-dom": "^7.1.0"
+  }
 }
